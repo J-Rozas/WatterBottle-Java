@@ -8,7 +8,7 @@ public class WaterBottleTest {
 
     @Before
     public void before() {
-        bottle = new WaterBottle;
+        bottle = new WaterBottle();
     }
 
     @Test
