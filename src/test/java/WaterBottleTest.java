@@ -26,12 +26,12 @@ public class WaterBottleTest {
     @Test
     public void canBeEmptied() {
         bottle.empty();
-        assertEquals(0, bottle.volume());
+        assertEquals(0, bottle.getVolume());
     }
 
     @Test
     public void canBeFiller() {
-        botte.fill();
+        bottle.fill();
         assertEquals(100, bottle.getVolume());
     }
 }
