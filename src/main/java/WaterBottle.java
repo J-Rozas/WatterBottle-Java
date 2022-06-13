@@ -1,6 +1,11 @@
 public class WaterBottle {
+    private final int volume;
 
     public WaterBottle() {
-        int volume = 100;
+        volume = 100;
+    }
+
+    public int getVolume() {
+        return volume;
     }
 }
